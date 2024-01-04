@@ -4,16 +4,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: white;
+}
+
+.light {
+  --text-color: orange; 
+}
+
 body {
-  background-image: url(./assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
 body * {
   font-family: "Inter", sans-serif;
-  color: #fff;
+  color: var(--text-color);
 }
 
 #container {
