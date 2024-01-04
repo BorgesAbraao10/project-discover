@@ -6,14 +6,16 @@
 
 :root {
   --text-color: white;
+  --bg-url: url(./assets/bg-mobile.jpg)
 }
 
 .light {
-  --text-color: orange; 
+  --text-color: black; 
+  --bg-url: url(./assets/bg-mobile.jpg)
 }
 
 body {
-  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+  background: url(./assets/bg-mobile-light.jpg) no-repeat top center/cover;
 }
 
 body * {
