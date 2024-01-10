@@ -34,7 +34,7 @@ body * {
 
 #container {
   width: 360px;
-  margin: 56px auto 0px;
+  margin: -10px auto 0px;
   padding: 0 24px;
 }
 
@@ -71,6 +71,7 @@ body * {
   background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
+  cursor: pointer;
 
   position: absolute;
   top: 50%;
@@ -138,7 +139,7 @@ ul li a:hover {
   display: flex;
   justify-content: center;
 
-  padding: 24px 0;
+  padding: 0;
   font-size: 24px;
 }
 
